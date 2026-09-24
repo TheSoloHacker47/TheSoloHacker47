@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.nikhilnelson.com/"><img alt="Website" src="https://img.shields.io/badge/nikhilnelson.com-161b22?style=flat-square&logo=googlechrome&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/nikhil-nelson"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:nikhilnelson47@gmail.com"><img alt="Email" src="https://img.shields.io/badge/nikhilnelson47@gmail.com-161b22?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="mailto:thesolohacker47@gmail.com"><img alt="Email" src="https://img.shields.io/badge/thesolohacker47@gmail.com-161b22?style=flat-square&logo=gmail&logoColor=white"></a>
   <img alt="Kochi, India, UTC+5:30" src="https://img.shields.io/badge/Kochi,_India-UTC+5:30-161b22?style=flat-square&labelColor=30363d">
 </p>
 
