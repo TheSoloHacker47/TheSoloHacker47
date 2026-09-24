@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Nikhil Nelson, senior backend engineer: payments and subscriptions on Ruby on Rails">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; }
+    .row { opacity: 0; animation: show 9s ease-out infinite; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes show { 0% { opacity: 0; transform: translateY(4px); } 4% { opacity: 1; transform: none; } 88% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .row { animation: none; opacity: 1; } .cursor { animation: none; } }
+  </style>
+  <rect width="1200" height="300" rx="14" fill="#0d1117"/>
+  <!-- left: identity -->
+  <text x="56" y="116" class="sans" font-size="54" font-weight="700" fill="#e6edf3">Nikhil Nelson</text>
+  <text x="58" y="160" class="sans" font-size="22" fill="#8b949e">Senior Backend Engineer · Ruby on Rails</text>
+  <text x="58" y="192" class="sans" font-size="22" fill="#8b949e">Payments &amp; Subscriptions</text>
+  <rect x="58" y="222" width="44" height="4" rx="2" fill="#3fb950"/>
+  <text x="114" y="229" class="mono" font-size="14" fill="#6e7681">building systems where money moves</text>
+  <!-- right: event log panel -->
+  <rect x="628" y="36" width="540" height="228" rx="10" fill="#161b22" stroke="#30363d"/>
+  <circle cx="652" cy="58" r="5" fill="#30363d"/><circle cx="670" cy="58" r="5" fill="#30363d"/><circle cx="688" cy="58" r="5" fill="#30363d"/>
+  <text x="1150" y="62" class="mono" font-size="12" fill="#6e7681" text-anchor="end">renewal.log</text>
+  <g class="mono">
+  <g class="row" style="animation-delay:0.40s">
+    <text x="660" y="90" fill="#d29922" font-weight="700">POST</text>
+    <text x="712" y="90" fill="#e6edf3">/renewals/:id/charge</text>
+    <text x="905" y="90" fill="#8b949e"></text>
+    <text x="1150" y="90" fill="#6e7681" text-anchor="end">200 OK</text>
+  </g>
+  <g class="row" style="animation-delay:0.95s">
+    <text x="660" y="117" fill="#3fb950" font-weight="700">✓</text>
+    <text x="712" y="117" fill="#e6edf3">charge.authorized</text>
+    <text x="905" y="117" fill="#8b949e">adyen</text>
+    <text x="1150" y="117" fill="#6e7681" text-anchor="end">$9.99</text>
+  </g>
+  <g class="row" style="animation-delay:1.50s">
+    <text x="660" y="144" fill="#3fb950" font-weight="700">✓</text>
+    <text x="712" y="144" fill="#e6edf3">tax.calculated</text>
+    <text x="905" y="144" fill="#8b949e">avalara</text>
+    <text x="1150" y="144" fill="#6e7681" text-anchor="end">3 jurisdictions</text>
+  </g>
+  <g class="row" style="animation-delay:2.05s">
+    <text x="660" y="171" fill="#3fb950" font-weight="700">✓</text>
+    <text x="712" y="171" fill="#e6edf3">webhook.received</text>
+    <text x="905" y="171" fill="#8b949e">braintree</text>
+    <text x="1150" y="171" fill="#6e7681" text-anchor="end">idempotent</text>
+  </g>
+  <g class="row" style="animation-delay:2.60s">
+    <text x="660" y="198" fill="#3fb950" font-weight="700">✓</text>
+    <text x="712" y="198" fill="#e6edf3">invoice.rendered</text>
+    <text x="905" y="198" fill="#8b949e">typstify</text>
+    <text x="1150" y="198" fill="#6e7681" text-anchor="end">PDF/UA</text>
+  </g>
+  <g class="row" style="animation-delay:3.15s">
+    <text x="660" y="225" fill="#3fb950" font-weight="700">✓</text>
+    <text x="712" y="225" fill="#e6edf3">logs.scrubbed</text>
+    <text x="905" y="225" fill="#8b949e">scrubber_rb</text>
+    <text x="1150" y="225" fill="#6e7681" text-anchor="end">0 PII leaked</text>
+  </g>
+  </g>
+  <rect class="cursor" x="660" y="238" width="9" height="17" fill="#3fb950"/>
+</svg>
